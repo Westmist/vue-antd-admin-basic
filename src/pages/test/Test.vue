@@ -36,6 +36,7 @@ export default {
     this.echarts = Chart.init(document.getElementById("echarts"));
     this.initEcharts();
   },
+
 };
 </script>
 <style scoped>

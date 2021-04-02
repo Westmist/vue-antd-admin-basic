@@ -16,7 +16,8 @@ const router = initRouter(store.state.setting.asyncRoutes)
 const i18n = initI18n('CN', 'US')
 
 Vue.use(Antd)
-Vue.config.productionTip = false
+// true 为开发环境
+Vue.config.productionTip = true
 Vue.use(Viser)
 Vue.use(Plugins)
 
